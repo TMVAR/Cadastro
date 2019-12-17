@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    margin-left: 80px;
+    margin-top: 80px;
+    background-color: rgb(0, 77, 150);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+
+}
+.conteiner{
+    margin: auto;
+    width: 1200px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+nav {
+    width: 300px;
+    height: 500px;
+    background-color: rgb(18, 138, 250);
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+section{
+    width: 870px;
+    height: 500px;
+    margin-left: 10px;
+    float: left;
+    background-color: rgb(18, 138, 250);
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+ul.menu{
+    list-style-type: none;
+}
+
+ul.menu li{
+    width: 270px;
+    height: 50px;
+    line-height: 30px;
+    background-color: rgb(0,77, 150);
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgba(0, 4, 255, 0.308);
+    background-color: rgb(121, 181, 238);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.campo {
+    width: 300px;
+    height: 30px;
+    border: 1px solid egb(0,4,0.308);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
